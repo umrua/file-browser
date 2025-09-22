@@ -10,6 +10,16 @@
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>File Browser</title>
+    <style>
+      .file-icon-cell {
+        text-align: center;
+        vertical-align: middle;
+      }
+      .file-icon-cell i {
+        font-size: 2em;
+        display: inline-block;
+      }
+    </style>
   </head>
   <body>
     <main class="container">
@@ -22,36 +32,41 @@
           <th>File Size</th>
         </tr>
         <tr>
-          <td><i class="fa-solid fa-file"></i></td>
+          <td class="file-icon-cell"><i class="fa-solid fa-file"></i></td>
           <td><a href="hello.txt" target="_blank">hello.txt</a></td>
           <td>Text File</td>
           <td>12 B</td>
         </tr>
         <tr>
-          <td><i class="fa-solid fa-file-pdf"></i></td>
+          <td class="file-icon-cell"><i class="fa-solid fa-file-pdf"></i></td>
           <td><a href="hello.pdf" target="_blank">hello.pdf</a></td>
           <td>PDF File</td>
           <td>14.7 KB</td>
         </tr>
         <tr>
-          <td><i class="fa-solid fa-file-image"></i></td>
+          <td class="file-icon-cell"><i class="fa-solid fa-file-image"></i></td>
           <td><a href="hello.jpg" target="_blank">hello.jpg</a></td>
           <td>JPEG Image</td>
           <td>7.18 KB</td>
         </tr>
         <tr>
-          <td><i class="fa-solid fa-file-code"></i></td>
+          <td class="file-icon-cell"><i class="fa-solid fa-file-code"></i></td>
           <td><a href="hello.json" target="_blank">hello.json</a></td>
           <td>JSON File</td>
           <td>31 KB</td>
         </tr>
         <tr>
-          <td><i class="fa-solid fa-file-lines"></i></td>
+          <td class="file-icon-cell"><i class="fa-solid fa-file-lines"></i></td>
           <td><a href="hello.html" target="_blank">hello.html</a></td>
           <td>HTML Page</td>
           <td>379 B</td>
         </tr>
       </table>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </main>
   </body>
 </html>
